@@ -1,0 +1,112 @@
+body{
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+#my_store{
+	margin: 30px 10px;
+
+}
+
+#my_store h1{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#sec_produtos{
+	margin: 30px auto;
+	padding: 30px 10px;
+	width: 90%;
+}
+
+#sec_produtos h2{
+	font-size: 25px;
+	margin-bottom: 40px; 
+}
+
+.prod{
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	border-bottom: 1px solid #ccc;
+	padding: 20px 0;
+}
+
+.submit{
+	color: #fff;
+	background: #0080FF;
+	border: 1px solid #fff;
+	padding: 5px 10px;
+	border-radius: 15px;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.submit:hover{
+	transition: 1.5s;
+	color: #0080FF;
+	background: #fff;
+	border: 1px solid #0080FF;
+	box-sizing: border-box;
+}
+
+.submit:focus{
+	outline: 0;
+}
+
+.prod:hover{
+	transition: 1.5s;
+	background: #BDBDBD;
+}
+
+/*__________ Carrinho ___________*/
+#cart{
+	margin: 30px auto;
+}
+
+.row_title{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+	border-top: 2px solid #0080FF;
+	border-bottom: 2px solid #0080FF;
+
+}
+
+.row_title span, .row_prod span{
+	width: 20%;
+	padding: 8px 0;
+	display: block;
+	text-align: center;
+}
+
+.row_prod{
+	display: flex;
+	justify-content: space-around;
+	padding: 10px 0;
+	border-bottom: 1px solid #CACACA;
+}
+
+/* ____________ Total _____________ */
+.row_total{
+	border-top: 2px solid #0080FF;
+	margin-top: 60px;
+	padding: 20px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+#tot_result{
+	text-align: right;
+	padding: 0 10px;
+}
+
+#total{
+	text-align: left;
+	padding: 0 10px;
+}
+
+.row_total div{
+	width: 30%;
+}

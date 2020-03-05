@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Projeto Final Parte 2</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<section>
+			<div id="my_store">
+				<h1>My Store</h1>
+			</div>
+
+			<div id="sec_produtos">
+				<div>
+					<h2>Products</h2>
+				</div>
+				
+				<div id="produtos">
+					<div class="prod">
+						<p class="prod_name">Produto 1</p>
+						<span class="prod_price">99.99</span>
+						<input type="submit" value="Add to cart" class="submit" onclick="teste(0)">
+					</div>
+
+					<div class="prod">
+						<p class="prod_name">Produto 2</p>
+						<span class="prod_price">50.15</span>
+						<input type="submit" value="Add to cart" class="submit" onclick="teste(1)">
+					</div>
+
+					<div class="prod">
+						<p class="prod_name">Produto 3</p>
+						<span class="prod_price">102.99</span>
+						<input type="submit" value="Add to cart" class="submit" onclick="teste(2)">
+					</div>
+				</div>
+
+				<div id="cart">
+					<div id="cart_title">
+						<h2>Cart</h2>
+					</div>
+
+					<div class="row_title">
+						<span>Item</span>
+						<span>Quantity</span>
+						<span>Unit Price</span>
+						<span>Subtotal</span>
+						<span></span>
+					</div>
+				</div>
+
+				<div class="row_total">
+					<div id="total">Total</div>
+					<div id="tot_result">$ 0.00</div>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- <script src="js/script.js"></script> -->
+		<script src="js/teste.js"></script>
+	</body>
+</html>
